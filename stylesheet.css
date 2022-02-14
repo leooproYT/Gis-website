@@ -210,7 +210,7 @@ p {
 .headabout {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t1.6435-9/60306703_2305157382840486_2960794417700536320_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=LEac9Z4qhacAX-2S_pP&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8e2ubWh8ELtpA7HM-okj4xYSxSYALjluOhOF7FQG59fQ&oe=6229E85E);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://i.ibb.co/pnt23jT/60306703-2305157382840486-2960794417700536320-n.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -255,7 +255,7 @@ p {
 .admissionabout {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244649462_4521209524568583_1309175803316409099_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=Wp-EG38f_YEAX-3L8NS&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8mYf5_nNVm1lXyXHp4nm-ZE6_W1kZsmpSLE_Ccb245Rg&oe=620A3903);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://i.ibb.co/4PQMwfN/244649462-4521209524568583-1309175803316409099-n.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -359,7 +359,7 @@ p {
 .contactformhead {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244649462_4521209524568583_1309175803316409099_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=Wp-EG38f_YEAX-3L8NS&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8mYf5_nNVm1lXyXHp4nm-ZE6_W1kZsmpSLE_Ccb245Rg&oe=620A3903);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://i.ibb.co/MkDR9bv/237482812-4354071174615753-931345885110445374-n.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -411,11 +411,11 @@ p {
     color: #555;
     font-weight: 400;
 }
-
+ /*--Mother Tounge--*/
 .mothertoungehead {
      min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fsvg2-1.fna.fbcdn.net/v/t1.6435-9/118601001_3353388618017352_8472315031915948157_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=NK1yNoXBh2MAX9uoPjP&_nc_ht=scontent.fsvg2-1.fna&oh=00_AT9D83AC3YE4WOYSlFO5TCGLJeOrn-5whXothKmVsgkTVQ&oe=622EE46D);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://i.ibb.co/rZ5Bs4z/118601001-3353388618017352-8472315031915948157-n.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -436,7 +436,7 @@ p {
 .FAQ {
     min-height: 50vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244052548_4497755800247289_3203587399852178196_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=MhATYqDGreIAX_anNg7&_nc_ht=scontent.fosl2-1.fna&oh=00_AT-kU-SOXHIwfLNzaoC1pqNa0YIdyxWyHY9UDPuUWvgZiQ&oe=620EEA34);
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://i.ibb.co/pfZV7gb/244052548-4497755800247289-3203587399852178196-n.jpg);
     background-position: center;
     background-size: cover;
     position: relative;

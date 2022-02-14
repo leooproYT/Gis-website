@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--External Files-->
+
+    <link rel="stylesheet" href="stylesheet.css">
+
+    <!--Meta Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us | GIS</title>
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <section class="contactformhead">
+
+        <nav>
+            <a href="index.html"><img src="http://www.gjovikis.no/wp-content/uploads/2018/10/gis-logo-509-509-copy-3.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark desktop-friendly close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="aboutGIS.html">ABOUT GIS</a></li>
+                    <li><a href="admission.html">ADMISSIONS</a></li>
+                    <li><a href="">SCHOOL LIFE</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="">GIS NEWSLETTER</a></li>
+
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars desktop-friendly menu-open" onclick="showMenu()"> </i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Contact GIS</h1>
+        </div>
+
+    </section>
+
+    <section class="map">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d124589.3426118278!2d10.27685285433703!3d60.79609983019661!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4641da1352793a1b%3A0x90536b890c171396!2sGj%C3%B8vikregionen%20International%20school!5e0!3m2!1sen!2sno!4v1644684606424!5m2!1sen!2sno" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+    </section>
+
+    <section class="contactGIS">
+
+        <div class="row">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house fa"></i>
+                    <span>
+                        <h5>Studieveien 17</h5>
+                        <p>2815, Gjøvik</p>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone fa"></i>
+                    <span>
+                        <h5>+4724076141 </h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-envelope fa"></i>
+                    <span>
+                        <h5>post@gjovikis.no</h5>
+                    </span>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-facebook fa"></i>
+                    <span>
+                        <h5>Follow us on <a href="https://www.facebook.com/Gjovikregionis">Facebook</a></h5>
+                    </span>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!---Footer-->
+    <div class="footer">
+        <p>©2022 Gjøvikregionen International School | Leo Prototype</p>
+    </div>
+
+
+
+
+
+    <!--Toggle menu script-->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body></html>

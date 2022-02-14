@@ -169,6 +169,8 @@ nav .fa {
         display: block !important;
         justify-content: space-between;
     }
+    
+
 }
 
 /*---About our school section---*/
@@ -314,7 +316,7 @@ p {
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
-    background: #ffa1a1;
+    background: #FF7676;
     padding: 2px;
     cursor: pointer;
     display: flex;
@@ -429,6 +431,32 @@ p {
 }
 
 
+/*---FAQ--*/
+
+.FAQ {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244052548_4497755800247289_3203587399852178196_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=730e14&_nc_ohc=MhATYqDGreIAX_anNg7&_nc_ht=scontent.fosl2-1.fna&oh=00_AT-kU-SOXHIwfLNzaoC1pqNa0YIdyxWyHY9UDPuUWvgZiQ&oe=620EEA34);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.FAQ-content {
+    padding-left: 5px;
+}
+
+.FAQ-content b {
+    color: #FE3F3F;
+}
+
+.FAQ-content h1 {
+    font-size: 20px;
+    padding-top: 5px;
+    text-align: center;
+}
 
 
 

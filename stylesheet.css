@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    max-width: 100%;
+
+}
+
+.header {
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://images.squarespace-cdn.com/content/v1/54cf42a3e4b074399edfc656/1439980805264-GOSCDHFBQLK4C2EB7PSX/GIS01.jpg?format=1000w);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 25px;
+}
+
+nav {
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img {
+    width: 110px;
+
+}
+
+.nav-links {
+    flex: 1;
+    text-align: right;
+    color: black;
+}
+
+.nav-links ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.nav-links ul li::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+    width: 100%;
+
+
+}
+
+.text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top 50%;
+    left: 50%;
+    transform: translate(-50%, 40%);
+    text-align: center;
+}
+
+.text-box h1 {
+    font-size: 62px;
+}
+
+.text-box p {
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.desktop-friendly {
+    display: none !important;
+}
+
+.close {
+    margin: 10px;
+}
+
+.menu-open {
+    color: white;
+    height:
+}
+
+nav .fa {
+    display: none;
+}
+
+@media(max-width: 820px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+
+    .nav-links ul li {
+        display: block;
+    }
+
+    .nav-links {
+        position: fixed;
+        background: #f44336;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transform: 1s;
+    }
+
+    .desktop-friendly {
+        display: block !important;
+    }
+
+    nav .fa {
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+
+    .nav-links ul {
+        padding: 20px;
+    }
+
+    .admission-pics {
+        display: none !important;
+
+
+
+    }
+
+    .admission-pics2 {
+        display: block !important;
+        text-align: center;
+        margin: 0 auto;
+        width: 100% !important;
+
+
+    }
+
+    .about-gis-pics2 {
+        display: block !important;
+        text-align: center;
+        margin: 0 auto;
+        width: 100% !important;
+    }
+
+    .about-gis-pics {
+        display: none;
+    }
+
+    .row {
+        margin-top: 5%;
+        display: block !important;
+        justify-content: space-between;
+    }
+}
+
+/*---About our school section---*/
+
+.aboutsec {
+    width: 80%;
+    margin: auto;
+    text-align: center !important;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+p {
+    color: #2f2e33;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+}
+
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-gis-pics2 {
+    display: none;
+}
+
+/*--About Page--*/
+.headabout {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t1.6435-9/60306703_2305157382840486_2960794417700536320_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=730e14&_nc_ohc=LEac9Z4qhacAX-2S_pP&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8e2ubWh8ELtpA7HM-okj4xYSxSYALjluOhOF7FQG59fQ&oe=6229E85E);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.AboutGIS {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col {
+    width: 800%;
+    margin: auto;
+    text-align: center !important;
+    padding-top: 10px;
+    padding-bottom: 20px;
+
+}
+
+.about-col img {
+    width: 70%;
+    padding: 15px;
+    max-width: 80%;
+
+}
+
+.about-col h1 {
+    padding-top: 0;
+
+}
+
+.about-col p {
+    padding: 15px 0 25px;
+}
+
+
+/*--ADMISSIONS Page--*/
+.admissionabout {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244649462_4521209524568583_1309175803316409099_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=Wp-EG38f_YEAX-3L8NS&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8mYf5_nNVm1lXyXHp4nm-ZE6_W1kZsmpSLE_Ccb245Rg&oe=620A3903);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+
+.admissionunder {
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.admission-col {
+    width: 80%;
+    margin: auto;
+    text-align: center !important;
+    padding-top: 10px;
+    padding-bottom: 30px;
+
+}
+
+.admission-col img {
+    width: 70%;
+}
+
+.admission-col h1 {
+    padding-top: 0;
+
+}
+
+.admission-col p {
+    padding: 15px 0 25px;
+}
+
+.hero-btn {
+    color: red;
+}
+
+.admission-pics2 {
+    display: none;
+}
+
+
+/*---Reviews---*/
+
+.reviews {
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+.review-col {
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #ffa1a1;
+    padding: 2px;
+    cursor: pointer;
+    display: flex;
+
+}
+
+.review-col img {
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+
+.review-col p {
+    padding: 0;
+
+}
+
+.review-col h3 {
+    margin-top: 15px;
+    text-align: left;
+
+}
+
+/*---Footer---*/
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ebbfbc;
+    color: white;
+    text-align: center;
+}
+
+
+/*---Contact Page---*/
+
+.contactformhead {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fosl2-1.fna.fbcdn.net/v/t39.30808-6/244649462_4521209524568583_1309175803316409099_n.jpg?_nc_cat=110&ccb=1-5&_nc_sid=730e14&_nc_ohc=Wp-EG38f_YEAX-3L8NS&_nc_ht=scontent.fosl2-1.fna&oh=00_AT8mYf5_nNVm1lXyXHp4nm-ZE6_W1kZsmpSLE_Ccb245Rg&oe=620A3903);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.map {
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+
+.map iframe {
+    width: 100%;
+
+}
+
+.contactGIS {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-col {
+    flex-basis: 48%;
+    margin-bottom: 30px;
+}
+
+.contact-col div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.contact-col div .fa {
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.contact-col div p {
+    padding: 0;
+}
+ 
+.contact-col div h5 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+}
+
+.mothertoungehead {
+     min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(https://scontent.fsvg2-1.fna.fbcdn.net/v/t1.6435-9/118601001_3353388618017352_8472315031915948157_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=730e14&_nc_ohc=NK1yNoXBh2MAX9uoPjP&_nc_ht=scontent.fsvg2-1.fna&oh=00_AT9D83AC3YE4WOYSlFO5TCGLJeOrn-5whXothKmVsgkTVQ&oe=622EE46D);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+    color: #fff;
+}
+
+.multitounge {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
